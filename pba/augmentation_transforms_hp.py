@@ -153,10 +153,6 @@ HP_TRANSFORMS = [
     contrast,
     brightness,
     sharpness,
-    shear_x,
-    shear_y,
-    translate_x,
-    translate_y,
     cutout,
 ]
 

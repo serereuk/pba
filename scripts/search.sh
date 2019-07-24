@@ -2,8 +2,8 @@
 export PYTHONPATH="$(pwd)"
 
 cifar100_search() {
-    local_dir="/gdrive/My Drive/datasets/result"
-    data_path="/gdrive/My Drive/datasets/datasets"
+    local_dir="$PWD/results/"
+    data_path="PWD/datasets/cifar-100-python"
 
     python pba/search.py \
     --local_dir "$local_dir" \
